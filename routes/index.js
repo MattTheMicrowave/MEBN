@@ -6,14 +6,14 @@ var UserModel = require('../models/UserModel');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-      if(!req.isAuthenticated()) {
-          res.redirect('/login');
-      } else {
+      // if(!req.isAuthenticated()) {
+      //     res.redirect('/login');
+      // } else {
             res.render('index', { title: 'Coding Skills',
             //when authenticated, all of our `req` in our routes will have the authenticated user attached
-            username: req.user.username
+            // username: req.user.username
         });
-      }
+      // }
 });
 
 
