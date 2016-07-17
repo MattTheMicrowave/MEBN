@@ -9,6 +9,11 @@ a {
 
 /* the following line styles the lists side by side */
 /* and removes the bulletpoints */
+.singlelist {
+  display:inline-block;
+  padding: 30px;
+}
+
 ul > li {
 
   display: inline-block;
@@ -27,6 +32,8 @@ ul > li {
 #listsview {
   text-align:center;
   padding: 0px;
+
+  list-style: none;
 }
 
 /*this centers the heading*/

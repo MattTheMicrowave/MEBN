@@ -5,7 +5,7 @@ var ItemModel = require('../models/ItemModel');
 var ItemsCollection = require('../Collections/ItemsCollection')
 
 var ListView = Backbone.View.extend({
-  el: '<div>\
+  el: '<div class="singlelist">\
           <form class="addItems">\
 		          <input class="item-input" type="text" name="name">\
 		          <input type="submit" value="Add" id="mysubmitbutton">\

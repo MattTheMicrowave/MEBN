@@ -56,10 +56,7 @@ module.exports = {
                     error: err
                 });
             }
-            return res.json({
-                message: 'saved',
-                _id: Item._id
-            });
+            return res.json(Item);
         });
     },
 
